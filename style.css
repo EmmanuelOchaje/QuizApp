@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  font-family: "Solway", serif;
+  font-weight: 400;
+}
+.container {
+  display: grid;
+  place-content: center;
+}
+h1 {
+  color: rgb(143, 143, 255);
+  font-size: 3.5rem;
+}
+.div1 {
+  display: flex;
+  line-height: 50px;
+  margin-top: 1rem;
+  background-color: rgb(228, 228, 228);
+  width: 25rem;
+}
+.option {
+  background-color: rgb(143, 143, 255);
+  padding: 1rem;
+  width: 2rem;
+  height: 3rem;
+  text-align: center;
+
+  color: white;
+  font-size: 2rem;
+}
+.option-disp {
+  color: rgb(143, 143, 255);
+  font-size: 1.5rem;
+  line-height: 75px;
+  margin-left: 1rem;
+}
